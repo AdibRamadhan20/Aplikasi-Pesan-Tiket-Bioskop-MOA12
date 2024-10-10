@@ -1,0 +1,140 @@
+/* Styling Custom */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    background-image: url('Assets/website background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 1rem; /* This will scale all text based on the root font size */
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-container {
+    margin-left: auto;
+    max-width: 40vw; /* Now width is dynamic with the viewport */
+    margin-right: 1rem;
+}
+
+/* Search bar hover effect */
+.search-container input {
+    width: 30vw; /* Dynamic width relative to the viewport */
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.search-container input:hover {
+    border-color: #dc3545;
+    box-shadow: 0 0 1rem rgba(220, 53, 69, 0.5);
+}
+
+.nav-link {
+    font-size: 1.5rem; /* Adjusted to rem for scalability */
+    font-family: "Protest Strike", sans-serif;
+    margin-left: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.05);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem; /* Adjusted to rem */
+}
+
+.user-img {
+    align-items: end;
+}
+
+#photo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    border: 0.2rem solid white;
+}
+
+.container {
+    width: 70vw; /* Using viewport width for dynamic scaling */
+}
+
+.text-center {
+    color: white;
+}
+
+.banner {
+    background-color: #dc3545;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+/* Movie card hover effect */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    text-align: left;
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; /* Keep aspect ratio for responsiveness */
+    object-fit: cover;
+    background-color: #f0f0f0;
+}
+
+.modal-content {
+    border-radius: 1rem;
+}
+
+.modal-header, .modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header .btn-close {
+    cursor: pointer;
+}
+
+.logo {
+    background-color: #dc3545;
+    color: #333;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-family: Copperplate, fantasy;
+    font-size: 2rem; /* Scales with rem */
+}
