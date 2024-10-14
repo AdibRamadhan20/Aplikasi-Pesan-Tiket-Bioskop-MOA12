@@ -138,3 +138,10 @@ header {
     font-family: Copperplate, fantasy;
     font-size: 2rem; /* Scales with rem */
 }
+
+.modal-movie-img {
+    display: block;        /* Agar gambar dianggap sebagai elemen blok */
+    margin: 0 auto;        /* Mengatur margin secara otomatis ke kiri dan kanan agar gambar berada di tengah */
+    width: 50%;            /* Atur lebar gambar (misalnya 50%) */
+    height: auto;          /* Menyesuaikan tinggi secara proporsional */
+}
